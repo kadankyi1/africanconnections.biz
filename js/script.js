@@ -1431,6 +1431,7 @@ function addToMailList(form_id) {
 
 function setCustomTourDetails(x) {
 	if(x.value == "December 2023 Ghana Wedding Tour"){
+		document.getElementById("tour_description").innerHTML = "<strong>Join the happy couple and their families as they tie the knot Ghana style.</strong> Experience a beautiful traditional Ghanaian wedding, with all the ceremonies and excitement that only a wedding can bring! This tour includes roundtrip economy airfare from Chicago; hotel accommodations and breakfast daily. This tour also includes visits to important cultural and historical sites; New Year’s masquerades, parties, and special events; participation in a traditional naming ceremony, where you will get your African name; participation in Ceremony of Remembrance at Slave River; go inside the slave dungeons and see the infamous 'Door of No Return'; enjoy celebrations of traditional dancing and drumming and experience the special vibes of the New Year celebrations that are virtually everywhere in Ghana at this time of year!";
 		document.getElementById("brochue_link_1").innerHTML = "Download the December 2023 Ghana Wedding Tour brochure";
 		document.getElementById("brochue_link_2").innerHTML = "Download the December 2023 Ghana Wedding Tour brochure";
 		document.getElementById("brochue_link_1").href = "/new/brochures/december2023ghanaweddingtour.pdf";
@@ -1439,14 +1440,16 @@ function setCustomTourDetails(x) {
 		document.getElementById("tabs-7").style.display="";
 		console.log("December 2023 Ghana Wedding Tour");
 	} else if(x.value == "Linda Boyd Return To The Motherland Tour"){
+		document.getElementById("tour_description").innerHTML = "<strong>Join Linda Boyd on this fantastic journey back to the Motherland.</strong> This ALL-INCLUSIVE tour includes roundtrip airfare from Detroit; deluxe hotel accommodations; breakfast, lunch, and dinner daily; a traditional naming ceremony; a cruise on the Volta Lake; visits to cultural and historical sites; visit to nature parks and animal reserves; ceremony of remembrance at Slave River; visit the slave dungeons at Cape Coast and Elmina, and see the infamous 'Door of No Return'; participation in one of the most exciting traditional festivals in all of Africa; enjoy traditional dancing and drumming performances; nightly entertainment options; and so much more! <br><br>This tour will visit several different cities, towns, and villages in Ghana so that you can really experience Ghana. <br><br>Register by September 30th 2023, and receive a $200 discount! <br><br><strong>Don’t miss this amazing African adventure. Register Now!</strong>";
 		document.getElementById("brochue_link_1").innerHTML = "Download the Linda Boyd Return To The Motherland Tour brochure";
 		document.getElementById("brochue_link_2").innerHTML = "Download the Linda Boyd Return To The Motherland Tour brochure";
 		document.getElementById("brochue_link_1").href = "/new/brochures/lindaboydreturntothemotherlandtourjune2024.pdf";
 		document.getElementById("brochue_link_2").href = "/new/brochures/lindaboydreturntothemotherlandtourjune2024.pdf";
 		document.getElementById("contact_us_section").style.display="none";
 		document.getElementById("tabs-7").style.display="";
-		console.log("Harris-May Family Tour");
+		console.log("Linda Boyd Return To The Motherland Tour");
 	} else if(x.value == "Harris-May Family Tour"){
+		document.getElementById("tour_description").innerHTML = "<strong>Join the Harris-May Family Tour on this African adventure.</strong> This tour will visit several different cities, towns, and villages in Ghana so that you can really experience Ghana. This tour includes, memorable cultural and historical tours to sites you might have only read about; visits to nature and animal reserves; a lunch cruise on Volta Lake; participation in a traditional naming ceremony, where you will get your African name; go inside the slave dungeons and see the infamous 'Door of No Return'; participate in Ceremony of Remembrance at Slave River; go inside Makola Market, one of the busiest open air markets in Africa and experience shopping Ghana style; visit to Ankwanda, the village where the Harris family has beautiful oceanfront property; enjoy celebratory dancing and drumming performances; and so much more! <br><br><strong>The best part is--the family will experience all this together!</strong> <br><br><strong>Register now! Don’t miss this amazing opportunity!</strong>";
 		document.getElementById("brochue_link_1").innerHTML = "Download the Harris-May Family Tour brochure";
 		document.getElementById("brochue_link_2").innerHTML = "Download the Harris-May Family Tour brochure";
 		document.getElementById("brochue_link_1").href = "/new/brochures/harrismayfamilyjuly2024tourbrochure.pdf";
@@ -1454,10 +1457,20 @@ function setCustomTourDetails(x) {
 		document.getElementById("contact_us_section").style.display="none";
 		document.getElementById("tabs-7").style.display="";
 		console.log("Harris-May Family Tour");
-	}  else if(x.value == "Contact Us To Customize A Tour" ){
+	} else if(x.value == "Kimberly Augustin Return To The Motherland Tour"){
+		document.getElementById("tour_description").innerHTML = "<strong>Go to Ghana with Kimberly Augustin and prepare to be amazed!</strong> This tour will visit several different cities, towns, and villages in Ghana so that you can really experience Ghana. The tour includes roundtrip economy airfare from Chicago; hotel accommodation; breakfast daily and several other meals; participation in traditional naming ceremony where you will get your African name; participation in one of Africa’s most exciting traditional festivals; visit he slave dungeons and see the infamous 'Door of No Return'; visit to nature and animal reserves; exciting dancing and drumming performances and other entertainment options and so much more!";
+		document.getElementById("brochue_link_1").innerHTML = "Download the Kimberly Augustin Return To The Motherland To The Motherland Tour brochure";
+		document.getElementById("brochue_link_2").innerHTML = "Download the Kimberly Augustin Return To The Motherland To The Motherland Tour brochure";
+		document.getElementById("brochue_link_1").href = "/new/brochures/kimberlyaugustinreturntothemotherlandtour.pdf";
+		document.getElementById("brochue_link_2").href = "/new/brochures/kimberlyaugustinreturntothemotherlandtour.pdf";
+		document.getElementById("contact_us_section").style.display="none";
+		document.getElementById("tabs-7").style.display="";
+		console.log("Kimberly Augustin Return To The Motherland Tour");
+	} else if(x.value == "Let Us Customize A Tour For You" ){
+		document.getElementById("tour_description").innerHTML = "<strong> Ghana has many exciting traditional festivals and our African Festival Tour gives you the opportunity to experience two of Ghana’s most exciting such events. </strong> Festivals are occasions of great cultural pomp and pageantry and are important occasions on the indigenous calendars of several of Ghana’s ethnic groups that bring all of the sons and daughters home from where ever they are to celebrate in their ancestral homes. Festivals reunite the entire ethnic group and are giant multi-day, sometimes week long celebrations with parades, parties and feasting all over town.";
 		document.getElementById("tabs-7").style.display="none";
 		document.getElementById("contact_us_section").style.display="";
-		console.log("Contact Us To Customize A Tour");
+		console.log("Let Us Customize A Tour For You");
 	} else {
 		document.getElementById("tabs-7").style.display="none";
 		console.log("none selected");

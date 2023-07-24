@@ -81,8 +81,6 @@
                     </li>
                     <li class="rd-nav-item"><a class="rd-nav-link" href="tours.html">Tours</a>
                     </li>
-                    <li class="rd-nav-item active"><a class="rd-nav-link" href="payment.php">Make A Payment</a>
-                    </li>
                     <li class="rd-nav-item"><a class="rd-nav-link" href="contact-us.html">Contact Us</a>
                     </li>
                   </ul>
@@ -110,7 +108,7 @@
                 <div class="box-contacts-body">
                   <div class="box-contacts-icon fl-bigmug-line-up104"></div>
                   <div class="box-contacts-decor"></div>
-                  <p class="box-contacts-link"><a>160 Bartlett Plaza Number 8428 Bartlett, Illinois 60103</a></p>
+                  <p class="box-contacts-link"><a></a></p>
                 </div>
               </article>
             </div>
@@ -169,8 +167,8 @@
                     <ul class="footer-contacts d-inline-block d-sm-block">
                         <div class="unit">
                           <div class="unit-left"><span class="icon fa fa-location-arrow"></span></div>
-                          <div class="unit-body"><a class="link-location" href="#">160 Bartlett Plaza Number 8428
-                            <br>Bartlett, Illinois 60103</a></div>
+                          <div class="unit-body"><a class="link-location" href="#">P.O. Box CT 4022, Cantonments,
+                            <br>Accra, Ghana</a></div>
                         </div>
                       </li>
                     </ul>
@@ -218,7 +216,7 @@
               </div>
               <div class="col-sm-6 col-md-4 order-sm-first">
                 <!-- Rights-->
-                <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>African Connections USA</span>. All Rights Reserved.</p>
+                <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>African Connections</span>. All Rights Reserved.</p>
               </div>
               <div class="col-sm-6 col-md-4 text-md-right">
                 <p class="rights"><a href="https://www.africanconnections.biz/new/travel/_1terms.php" target="_blank">Terms & Conditions</a></p>
